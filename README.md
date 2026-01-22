@@ -1,73 +1,164 @@
-# Welcome to your Lovable project
+# 🧩 Graph Visualizer
 
-## Project info
+An **interactive graph visualization platform** focused on helping users understand **core graph algorithms visually and intuitively**. This project emphasizes *learning by seeing*, enabling real-time exploration of graph traversal and connectivity concepts instead of treating algorithms as black-box logic.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🔍 Project Overview
 
-There are several ways of editing your application.
+This application allows users to **construct graphs dynamically** and visualize how classical graph algorithms operate step by step. The primary goal is to build strong intuition around **graph traversal, connectivity, and critical nodes**, making it ideal for **DSA learners, interview preparation, and classroom demonstrations**.
 
-**Use Lovable**
+The project is built using **Lovable**, enabling rapid iteration through prompts while still allowing full local development using standard frontend tooling.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 Core Topics & Focus Areas
 
-**Use your preferred IDE**
+### 📌 Graph Visualization
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Interactive node and edge creation
+* Real-time visual updates during algorithm execution
+* Clear distinction between:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+  * Unvisited nodes
+  * Currently active nodes
+  * Visited nodes
 
-Follow these steps:
+---
+
+### 🔁 Graph Traversal Algorithms
+
+#### Breadth-First Search (BFS)
+
+* Visualizes **level-order traversal**
+* Demonstrates queue-based expansion
+* Highlights distance layers from the source node
+
+#### Depth-First Search (DFS)
+
+* Shows **deep recursive / stack-based exploration**
+* Visualizes backtracking clearly
+* Useful for understanding tree and graph structures
+
+---
+
+### 🧩 Graph Connectivity & Critical Nodes
+
+#### Articulation Points (Cut Vertices)
+
+* Identifies nodes whose removal **disconnects the graph**
+* Visualizes:
+
+  * DFS discovery time
+  * Low-link values
+  * Parent–child relationships
+* Emphasizes why and how a node becomes critical to connectivity
+
+This section strongly focuses on **DFS-based graph theory concepts**, which are often difficult to understand without visualization.
+
+---
+
+## 🎯 Educational Philosophy
+
+* Step-by-step execution instead of instant results
+* Strong emphasis on **algorithm intuition over memorization**
+* Designed for:
+
+  * Data Structures & Algorithms learning
+  * Technical interview preparation
+  * Teaching and demonstrations
+
+---
+
+## 🛠️ Technology Stack
+
+This project is built with modern frontend technologies:
+
+* **Vite** — Fast development tooling
+* **TypeScript** — Type-safe JavaScript
+* **React** — Component-based UI
+* **shadcn-ui** — Clean and accessible UI components
+* **Tailwind CSS** — Utility-first styling
+
+---
+
+## ✏️ Editing the Project
+
+### Using Lovable
+
+* Open the project in Lovable
+* Make changes using prompts
+* All changes are automatically committed to this repository
+
+---
+
+### Using Your Local IDE
+
+Requirements:
+
+* Node.js
+* npm (recommended via `nvm`)
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate into the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Editing Directly on GitHub
 
-**Use GitHub Codespaces**
+* Navigate to any file in the repository
+* Click the **Edit (✏️)** button
+* Commit your changes
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+### Using GitHub Codespaces
 
-This project is built with:
+* Click **Code → Codespaces → New codespace**
+* Edit files directly in the browser
+* Commit and push changes when finished
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🚀 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Deploy instantly via **Lovable**:
 
-## Can I connect a custom domain to my Lovable project?
+* Open the project in Lovable
+* Click **Share → Publish**
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🌐 Custom Domain Support
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+You can connect a custom domain:
+
+* Go to **Project → Settings → Domains**
+* Click **Connect Domain**
+
+Learn more: [https://docs.lovable.dev/features/custom-domain#custom-domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+---
+
+## 📌 Summary
+
+This project serves as a **visual learning tool for graph algorithms**, with a strong focus on:
+
+* BFS and DFS traversal
+* Graph connectivity
+* Articulation point detection
+
+It is designed to turn abstract graph theory concepts into **clear, visual, and interactive experiences**.
+
+> *See the algorithm. Understand the logic.* 🚀
